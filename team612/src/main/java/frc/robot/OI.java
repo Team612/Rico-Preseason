@@ -31,7 +31,6 @@ public class OI
     public static JoystickButton gunner_button_RJ   	= new JoystickButton(gunner,10);
 
     public OI() {
-
     }
 
 }

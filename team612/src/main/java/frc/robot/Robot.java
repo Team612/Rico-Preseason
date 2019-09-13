@@ -4,13 +4,15 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
-
+import frc.robot.subsystems.Arm;
 import frc.robot.subsystems.Drivetrain;
 
 public class Robot extends TimedRobot 
 {
 
     public static final Drivetrain drivetrain = new Drivetrain();
+    
+    public static Arm arm = new Arm();
 
     public static OI oi;
 
